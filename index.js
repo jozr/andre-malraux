@@ -1,6 +1,7 @@
 // index.js
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App.jsx';
+import Recipe from './src/components/recipe.jsx';
+import Container from './src/components/container.jsx';
 
-ReactDOM.render(<App />, document.getElementById('app'));
+ReactDOM.render(<Container />, document.getElementById('container'));

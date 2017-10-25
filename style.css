@@ -1,0 +1,86 @@
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: auto;
+}
+
+html, body {
+  height: 100%;
+  background-color: #fdfcfa;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.recipes-title {
+  font-size: 32px;
+  line-height: 38px;
+  color: #343434;
+  font-family: Montserrat;
+  font-weight: 400;
+  letter-spacing: -0.3px;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.recipes-grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.recipe-container {
+  padding-left: 10px;
+  padding-right: 10px;
+  -webkit-flex-basis: 25%;
+  max-width: 25%;
+  -webkit-order: 0;
+}
+
+.recipe {
+  position: relative;
+  background-color: white;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1);
+  margin-bottom: 25px;
+}
+
+.recipe-image-container {
+  padding-bottom: 56.25%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+
+.recipe-image {
+  top: 50%;
+  bottom: 0px;
+  -webkit-transform: translateY(-50%);
+  display: block;
+  height: auto;
+  left: 0px;
+  position: absolute;
+  width: 100%;
+  opacity: 1;
+  -moz-transition: opacity 0.3s linear;
+}
+
+.recipe-details {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #b0aba3;
+  font-weight: 300;
+  margin: 0px;
+}
+
+.recipe-calories {
+  margin-right: 10px;
+}
